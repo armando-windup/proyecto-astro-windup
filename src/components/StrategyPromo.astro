@@ -1,0 +1,31 @@
+---
+import SpeakerCard from './SpeakerCard.astro';
+---
+<section class="bg-gray-100 py-16">
+  <div class="max-w-7xl mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl text-center mb-4">
+      Saca el máximo partido a tus estrategias de <span class="text-accent">Black Friday</span>
+    </h2>
+    <p class="text-center mb-12 text-gray-600">Cada sesión tiene una duración de 45 minutos</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <SpeakerCard
+        name="Adrian Sánchez"
+        title="SEO Specialist"
+        description="Experto en técnicas SEO con más de 10 años de experiencia en el sector digital. Especializado en auditorías técnicas, optimización on-page y estrategias de link building."
+        image="/adrian-sanchez.webp"
+      />
+      <SpeakerCard
+        name="Jose Antonio"
+        title="Paid Media Specialist"
+        description="Especialista en campañas de publicidad digital con un historial probado de ROI excepcional. Experto en Google Ads, Facebook Ads y estrategias de remarketing."
+        image="/jose-antonio.webp"
+      />
+      <SpeakerCard
+        name="Alejandro Jiménez"
+        title="Data Analyst"
+        description="Analista de datos con experiencia en la interpretación de métricas de comercio electrónico y comportamiento del consumidor. Experto en Google Analytics y herramientas de visualización de datos."
+        image="/alejandro-jimenez.webp"
+      />
+    </div>
+  </div>
+</section>

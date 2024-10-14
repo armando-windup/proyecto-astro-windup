@@ -1,0 +1,21 @@
+---
+import { Image } from 'astro:assets';
+
+---
+<section id="signup" class="bg-accent text-white py-16">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8">
+    <div class="flex-1">
+      <h2 class="text-3xl md:text-4xl mb-8">Descárgate los Webinars y prepárate para triunfar este Black Friday</h2>
+      <form class="flex flex-col gap-4">
+        <input type="text" placeholder="Nombre" required class="p-3 rounded-lg text-text-dark">
+        <input type="email" placeholder="Email" required class="p-3 rounded-lg text-text-dark">
+        <input type="text" placeholder="Empresa" required class="p-3 rounded-lg text-text-dark">
+        <input type="text" placeholder="Cargo" required class="p-3 rounded-lg text-text-dark">
+        <button type="submit" class="bg-accent-dark text-white p-3 rounded-lg font-bold transition duration-300 hover:bg-blue-900">Quiero apuntarme</button>
+      </form>
+    </div>
+    <div class="flex-1 flex justify-center items-center">
+      <Image src="/team-working.webp" alt="Equipo trabajando" class="max-w-full h-auto rounded-2xl" width={500} height={500} format="webp" />
+    </div>
+  </div>
+</section>
